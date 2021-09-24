@@ -27,3 +27,11 @@ Continuous Deployment - Continuous Deployment is a software release process that
 - Difference b/w Git & Github
 --------------------------------
 Git is a version control system that lets you manage and keep track of your source code history. GitHub is a cloud-based hosting service that lets you manage Git repositories.
+
+- Stages of Git
+-----------------
+working              -> stage                    -> commit              -> push
+working area changes -> save in temporary local  -> save in local repo  -> save in remote repo
+
+
+
