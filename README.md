@@ -33,5 +33,10 @@ Git is a version control system that lets you manage and keep track of your sour
 working              -> stage                    -> commit              -> push
 working area changes -> save in temporary local  -> save in local repo  -> save in remote repo
 
+- 3 methods of git reset?
+--------------------------
+git reset --mixed -> remove changes from local repo and staging
+git reset --soft  -> remove changes from local repo but not from staging
+git reset --hard  -> remove changes from local repo, staging and changes in the file (move to initial stage from the last commit)
 
 
